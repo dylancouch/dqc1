@@ -1,0 +1,11 @@
+# Python environments and generated files
+.venv/
+__pycache__/
+*.py[cod]
+logs/
+DQC1_local_output.ipynb
+DQC1_ibm_output.ipynb
+
+# User-provided datasets are not distributed with this repository.
+data/*
+!data/README.md

@@ -1,0 +1,15 @@
+# Core notebook and clustering dependencies
+numpy>=2.0
+scikit-learn>=1.5
+qiskit>=2.0
+qiskit-aer>=0.17
+
+# Notebook execution through run.sh
+ipykernel>=6.29
+papermill>=2.7
+
+# Required only for IBM Quantum hardware execution
+qiskit-ibm-runtime>=0.45
+
+# Optional accelerated tensor path; the notebook falls back when unavailable
+torch>=2.7
